@@ -120,6 +120,8 @@ return {
     "nvim-treesitter/nvim-treesitter",
     opts = {
       ensure_installed = {
+        "vue",
+        "css",
         "bash",
         "html",
         "javascript",
