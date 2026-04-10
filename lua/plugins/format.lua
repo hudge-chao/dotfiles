@@ -8,6 +8,9 @@ return {
         -- 针对 Vue 2 + JS，建议优先使用 prettier
         javascript = { "prettier" },
         vue = { "prettier" },
+        python = { "ruff_format" },
+        c = { "clang_format" },
+        cpp = { "clang_format" },
       },
     },
   },

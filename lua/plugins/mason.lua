@@ -14,6 +14,9 @@ return {
       },
       max_concurrent_installers = 4,
       PATH = "prepend",
+      ensure_installed = {
+        "clang-format",
+      },
     },
   },
 }
